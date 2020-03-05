@@ -29,7 +29,7 @@ function Container(){
     
     //fetch search data from the server
     useEffect(()=>{
-        fetch("http://www.omdbapi.com/?apikey=77b02eca&s=" + SearchParam,{
+        fetch("https://www.omdbapi.com/?apikey=77b02eca&s=" + SearchParam,{
             method:"GET",
         }).then(response=>{
             return response.text();
@@ -40,7 +40,7 @@ function Container(){
 
     //fetch one movie data from the server
     useEffect(()=>{
-        fetch("http://www.omdbapi.com/?apikey=77b02eca&i=" + MovieSelect,{
+        fetch("https://www.omdbapi.com/?apikey=77b02eca&i=" + MovieSelect,{
             method:"GET",
         }).then(response=>{
             return response.text();
