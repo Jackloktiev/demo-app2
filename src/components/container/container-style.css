@@ -1,0 +1,12 @@
+.Container {
+    width:80%;
+    margin: auto;
+}
+
+.Result_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+.Search_input {
+    width: 85%;
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    border: 1px;
+    height: 30px;
+    font-size: 1rem;
+    padding:5px;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.SearchBar{
+    width: 40%;
+    margin: auto;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+.Search_button{
+    float: right;
+    width: 15%;
+    background-color: gray;
+    color: white;
+    border: 1px;
+    height: 30px;
+    font-size: 1rem;
+    padding:5px;
+
+
+}

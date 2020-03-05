@@ -1,0 +1,20 @@
+.Result {
+    width: 20%;
+    text-align: center;
+ 
+    margin:2px;
+}
+
+.Result:hover{
+    box-shadow: 5px 5px 7px #eeeeee;
+    border: 1px solid black;
+}
+
+.Result p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Result img{
+    width: 70%;
+}
