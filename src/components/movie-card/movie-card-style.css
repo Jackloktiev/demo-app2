@@ -27,3 +27,34 @@
 .Bold{
     font-weight: bold;
 }
+
+@media (max-width:850px){
+    .MovieCard img{
+        width: 60%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .MovieCard h1{
+        font-size: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .MovieCard  {
+        font-size: 0.8rem;
+        width: 80%;
+    }
+    .Title_text{
+        text-align: center;
+    }
+}
+
+@media (max-height:500px){
+    .MovieCard img{
+        width: 30%;
+        float: left;
+        margin-right: 10px;
+    }
+
+}

@@ -36,3 +36,16 @@
 
 
 }
+
+@media (max-width:850px){
+    .SearchBar{
+        width: 100%;
+    }
+    .Search_input{
+        width: 70%;
+    }
+    .Search_button{
+        width: 30%;
+    }
+}
+

@@ -1,20 +1,25 @@
 .Header {
-    position: relative;
     color: white;
     text-align: center;
     font-size: 1.8rem;
+    height: 545px;
+    margin-top: 0;
+}
 
+.Header_h1{
+    margin: 0;
+    padding-top: 50px;
 }
 
 .Text_div {
     margin: auto;
-    position: absolute;
-    top:10px;
-    left:40px;
     font-family: 'Indie Flower', cursive;
 }
 
-.Header_image {
-    height: auto;
-    
+
+@media (max-width:850px){
+    .Header{
+        font-size: 1.1rem;
+        height: 400px;
+    }
 }
